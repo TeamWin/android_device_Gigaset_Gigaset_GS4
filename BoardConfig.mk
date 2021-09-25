@@ -89,6 +89,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 
 # enable encryption support
+BOARD_USES_METADATA_PARTITION := true
 TW_INCLUDE_CRYPTO := true
 TW_CRYPTO_FS_TYPE := "ext4"
 TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/userdata"

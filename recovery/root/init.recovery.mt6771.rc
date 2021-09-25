@@ -9,7 +9,7 @@ on fs && property:ro.debuggable=0
     start adbd
 
 on early-fs
-    start vold for userdata decryption
+    # start vold for userdata decryption
     start vold
 
 on property:sys.usb.ffs.ready=1

@@ -20,7 +20,7 @@ Medium checks
 - [x] UI colors (red/blue inversions)
 - [x] Screen goes off and on
 - [-] F2FS/EXT4 Support, exFAT/NTFS where supported <-- f2fs not working. Fat32 is also working
-- [x] all important partitions listed in mount/backup lists <-- in backup list everything is displayed as 0mb as soon as you make a backup the partition sizes get updated. Data is broken because of encryption.
+- [x] all important partitions listed in mount/backup lists <-- need to press "refresh sizes" to load the partition sizes.
 - [?] backup/restore to/from external (USB-OTG) storage (not supported by the device) <-- probably yes
 - [x] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
 - [ ] decrypt /data

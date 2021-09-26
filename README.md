@@ -3,6 +3,7 @@ TWRP Device Tree for Gigaset GS4
 
 Current Status:
 userdata is unreadable
+No OS Installed! Are you sure you wish to reboot? only disapears if you refresh sizes in backup
 
 Blocking checks
 - [x] Correct screen/recovery size

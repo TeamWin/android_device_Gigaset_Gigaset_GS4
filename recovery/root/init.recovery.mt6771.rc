@@ -41,11 +41,3 @@ on post-fs
     symlink /dev/block/platform/bootdevice/by-name/preloader_a /dev/block/platform/bootdevice/by-name/preloader_ufs_a
     symlink /dev/block/platform/bootdevice/by-name/preloader_b /dev/block/platform/bootdevice/by-name/preloader_ufs_b
 
-on post-fs-data
-    start vold
-    exec - system system -- /system/bin/vdc checkpoint prepareCheckpoint
-    chown system system /data
-    chmod 0771 /data
-    restorecon /data
-    installkey /data
-

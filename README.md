@@ -29,7 +29,7 @@ Medium checks
 
 
 Minor checks
-- [x] MTP export <--- internal storage is accesible via mtp after first reboot
+- [x] MTP export
 - [x] reboot to bootloader
 - [x] reboot to recovery
 - [x] poweroff <-- sometimes triggers a reboot

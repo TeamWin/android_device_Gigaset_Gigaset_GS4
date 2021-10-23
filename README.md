@@ -18,7 +18,7 @@ Blocking checks
 
 
 Medium checks
-- [ ] update.zip sideload <-- normal adb probably broke this one (worked before)
+- [x] update.zip sideload
 - [x] UI colors (red/blue inversions)
 - [x] Screen goes off and on
 - [-] F2FS/EXT4 Support, exFAT/NTFS where supported <-- f2fs not working. Fat32 is also working

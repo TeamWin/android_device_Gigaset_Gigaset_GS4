@@ -94,9 +94,10 @@ TW_USE_TOOLBOX := true
 
 # enable encryption support
 TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_CRYPTO_FBE := true
-TW_INCLUDE_FBE := true
-TARGET_HW_DISK_ENCRYPTION := true
+# doesnt work
+#TW_INCLUDE_CRYPTO_FBE := true
+#TW_INCLUDE_FBE := true
+#TARGET_HW_DISK_ENCRYPTION := true
 
 # debug
 TWRP_INCLUDE_LOGCAT := true

@@ -17,4 +17,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_Gigaset_GS4.mk
+	$(LOCAL_DIR)/omni_Gigaset_GS4.mk
+
+COMMON_LUNCH_CHOICES := \
+	omni_Gigaset_GS4-eng

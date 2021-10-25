@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/gigaset/Gigaset_GS4
+DEVICE_PATH := device/Gigaset/Gigaset_GS4
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/gigaset/Gigaset_GS4
+LOCAL_PATH := device/Gigaset/Gigaset_GS4
 

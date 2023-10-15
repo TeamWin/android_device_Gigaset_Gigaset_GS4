@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/gigaset/Gigaset_GS4
+DEVICE_PATH := device/Gigaset/Gigaset_GS4
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -94,9 +94,10 @@ TW_USE_TOOLBOX := true
 
 # enable encryption support
 TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_CRYPTO_FBE := true
-TW_INCLUDE_FBE := true
-TARGET_HW_DISK_ENCRYPTION := true
+# doesnt work
+#TW_INCLUDE_CRYPTO_FBE := true
+#TW_INCLUDE_FBE := true
+#TARGET_HW_DISK_ENCRYPTION := true
 
 # debug
 TWRP_INCLUDE_LOGCAT := true

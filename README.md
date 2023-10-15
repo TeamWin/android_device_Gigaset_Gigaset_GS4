@@ -1,3 +1,6 @@
+# DOES NOT WORK ANYMORE [UNSUPPORTED]
+Due to the fact my usb port broke...
+If you are willing to help me to get this up to date contact me.
 # android_device_gigaset_gigasetgs4_twrp
 TWRP Device Tree for Gigaset GS4
 
